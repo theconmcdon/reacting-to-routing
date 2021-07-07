@@ -30,7 +30,7 @@ const GhibliHome = () => {
                 </div>    
                 <div class='mt-5 d-flex flex-row row'>
                     <div class='col-5'></div>
-                    <button onClick={() => {window.close()}} class='col-2 btn btn-info justify-content-center'>Exit Archive</button>
+                    <button onClick={() => alert("doesn't work whoops lol")} class='col-2 btn btn-info justify-content-center'>Exit Archive</button>
                     <div class='col-5'></div>
                 </div>
             </div>

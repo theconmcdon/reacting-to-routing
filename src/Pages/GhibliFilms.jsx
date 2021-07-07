@@ -10,8 +10,7 @@ const GhibliFilms = () => {
         .then((res) => res.json())
         .then((films) => setFilms(films))
         .catch((err) => {
-          err = new Error('Failed to Fetch')
-          console.log(err)
+          err = new Error('Fetch failed')
         })
     }, []);    
     

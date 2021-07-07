@@ -10,8 +10,7 @@ const GhibliLocations = () => {
         .then((res) => res.json())
         .then((locations) => setLocations(locations))
         .catch((err) => {
-          err = new Error('Failed to Fetch')
-          console.log(err)
+          err = new Error('Fetch failed')
         })
     }, []);    
     

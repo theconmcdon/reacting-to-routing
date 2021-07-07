@@ -10,8 +10,7 @@ const GhibliPeople = () => {
         .then((res) => res.json())
         .then((people) => setPeople(people))
         .catch((err) => {
-          err = new Error('Failed to Fetch')
-          console.log(err)
+          err = new Error('Fetch failed')
         })
     }, []); 
 
